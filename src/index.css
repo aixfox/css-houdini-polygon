@@ -1,0 +1,10 @@
+#root {
+  width: 400px;
+  height: 300px;
+
+  margin: 0 auto;
+
+  --edge: 4;
+
+  background-image: paint(polygon);
+}
