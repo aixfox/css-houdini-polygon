@@ -1,0 +1,24 @@
+{
+  "name": "css-houdini-polygon",
+  "version": "1.0.0",
+  "description": "css houdini paint api, with css variables",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "serve": "http-server ./lib"
+  },
+  "keywords": [
+    "css houdini",
+    "paint api"
+  ],
+  "author": "aixfox",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "http-server": "^0.11.1"
+  }
+}
